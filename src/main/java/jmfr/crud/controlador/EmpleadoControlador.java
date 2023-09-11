@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("crud-app")
-@CrossOrigin(value = "http://localhost:3000")
+@CrossOrigin(value = "https://react-crud-production.up.railway.app/")
 public class EmpleadoControlador {
 
     private static final Logger logger = LoggerFactory.getLogger(EmpleadoControlador.class);
